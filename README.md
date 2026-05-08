@@ -2,32 +2,52 @@
 
 **Your Intelligent Open-Source Power BI Alternative**
 
-Built with ❤️ by [Mohammed Amine Goumri](https://www.linkedin.com/in/mohammed-amine-goumri/)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-00A3E0?style=for-the-badge&logo=groq&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-## ✨ Features
+Built with ❤️ by **[Mohammed Amine Goumri](https://www.linkedin.com/in/mohammed-amine-goumri/)** – Data Analyst & BI Developer
 
-- 📤 Upload Excel, CSV, or live API data
-- 🧹 **AI-Powered Cleaning** (auto data type correction, smart null handling)
-- 📈 Smart chart suggestions + custom visualizations
-- 💡 Natural language insights & calculated measures
-- 🏗️ Custom dashboard builder
-- Fully interactive Streamlit app
+## ✨ Key Features (v3.0)
+
+- 📤 **Multi-source Upload**: CSV, Excel, or **Live API (JSON)**
+- 🧹 **AI-Powered Data Cleaning** using Groq LLM (smart type correction, null handling, standardization)
+- 💡 **Natural Language BI**: Ask questions in plain English and create **conditional/calculated columns**
+- 📊 **Smart Visualizations** + AI chart recommendations
+- 🏗️ **Advanced Dashboard Builder** with:
+  - Dynamic **KPI Cards**
+  - Interactive charts
+  - Dashboard preview
+  - Export capabilities
+- 🔄 Real-time interaction with your data
 
 ## 🚀 Quick Start
 
-1. Clone the repo
-2. `pip install -r requirements.txt`
-3. `streamlit run streamlit_app.py`
+```bash
+git clone https://github.com/mohammedaminegoumri/ai-bi-studio.git
+cd ai-bi-studio
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
 
-## Live Demo
-_(Coming soon - deploy to Streamlit Cloud! )_
+## 🧠 How to Use Groq API
+
+1. Go to [https://console.groq.com/keys](https://console.groq.com/keys)
+2. Create a new API key (free tier is very generous)
+3. Paste it in the sidebar of the app
 
 ## Tech Stack
-- Streamlit
-- Pandas
-- Plotly
-- AI-powered data processing
+- **Streamlit** (Frontend)
+- **Groq + Llama 3.1 70B** (AI Brain)
+- **Pandas + Plotly** (Data & Viz)
+- **Kaleido** (Chart export)
 
-Perfect for Data Analysts, BI Developers, and anyone who wants **Power BI superpowers** without the license! 🔥
+This project is built to demonstrate **real-world Agentic AI + BI** capabilities.
 
-Star the repo if you like it ⭐
+Perfect for portfolio, freelance projects, or internal business use.
+
+⭐ Star the repo if you find it useful!
+
+---
+
+**Ready to deploy on Streamlit Cloud** – Just connect your GitHub repo!
