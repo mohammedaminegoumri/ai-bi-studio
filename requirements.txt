@@ -6,5 +6,7 @@ requests
 groq
 numpy
 python-dotenv
-seaborn
-kaleido
+PyYAML
+sqlalchemy
+psycopg2-binary
+pymysql
