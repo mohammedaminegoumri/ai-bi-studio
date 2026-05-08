@@ -4,9 +4,14 @@ plotly
 openpyxl
 requests
 groq
-numpy
-python-dotenv
+gspread
+google-auth
+google-auth-oauthlib
+google-cloud-bigquery
+fpdf2
+python-pptx
 PyYAML
+numpy
 sqlalchemy
 psycopg2-binary
 pymysql
